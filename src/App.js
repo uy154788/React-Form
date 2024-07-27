@@ -18,6 +18,7 @@ function App() {
     console.log(formData);
 
   }
+  
   return (
     <div className="w-full md:max-w-[50%] mx-auto shadow p-8">
     <div className=" flex flex-col ">
