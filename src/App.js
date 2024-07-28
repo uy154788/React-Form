@@ -8,6 +8,7 @@ function App() {
     comments:false, candidates:false, offers: false,
     pushNotification:""
   });
+  
   function changeHandler(event){
     const{name,value,checked,type}=event.target;
     setFormData((prev)=>({...prev, [name]:type==="checkbox"? checked:value}))
